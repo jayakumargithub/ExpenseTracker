@@ -1,0 +1,5 @@
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Dto\bin\Debug\ExpenseTracker.Dto.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Dto\bin\Debug\ExpenseTracker.Dto.pdb
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Dto\obj\Debug\ExpenseTracker.Dto.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Dto\obj\Debug\ExpenseTracker.Dto.pdb
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Dto\obj\Debug\ExpenseTracker.Dto.csprojResolveAssemblyReference.cache

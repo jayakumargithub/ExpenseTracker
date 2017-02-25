@@ -1,0 +1,5 @@
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Dto\bin\Release\ExpenseTracker.Dto.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Dto\bin\Release\ExpenseTracker.Dto.pdb
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Dto\obj\Release\ExpenseTracker.Dto.csprojResolveAssemblyReference.cache
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Dto\obj\Release\ExpenseTracker.Dto.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Dto\obj\Release\ExpenseTracker.Dto.pdb

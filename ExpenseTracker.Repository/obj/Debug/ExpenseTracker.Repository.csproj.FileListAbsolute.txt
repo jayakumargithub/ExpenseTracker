@@ -1,0 +1,12 @@
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\obj\Debug\ExpenseTracker.Repository.csprojResolveAssemblyReference.cache
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Debug\ExpenseTracker.Repository.dll.config
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Debug\ExpenseTracker.Repository.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Debug\ExpenseTracker.Repository.pdb
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Debug\EntityFramework.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Debug\ExpenseTracker.Dto.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Debug\ExpenseTracker.Dto.pdb
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Debug\EntityFramework.xml
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\obj\Debug\ExpenseTracker.Repository.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\obj\Debug\ExpenseTracker.Repository.pdb

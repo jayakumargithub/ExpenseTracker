@@ -1,0 +1,5 @@
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Constants\bin\Debug\ExpenseTracker.Constants.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Constants\bin\Debug\ExpenseTracker.Constants.pdb
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Constants\obj\Debug\ExpenseTracker.Constants.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Constants\obj\Debug\ExpenseTracker.Constants.pdb
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Constants\obj\Debug\ExpenseTracker.Constants.csprojResolveAssemblyReference.cache

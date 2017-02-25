@@ -1,0 +1,12 @@
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Release\ExpenseTracker.Repository.dll.config
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Release\ExpenseTracker.Repository.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Release\ExpenseTracker.Repository.pdb
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Release\EntityFramework.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Release\ExpenseTracker.Dto.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Release\ExpenseTracker.Dto.pdb
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Release\EntityFramework.xml
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\obj\Release\ExpenseTracker.Repository.csprojResolveAssemblyReference.cache
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\obj\Release\ExpenseTracker.Repository.dll
+C:\Dotnetworld\ExpenseTracker\ExpenseTracker.Repository\obj\Release\ExpenseTracker.Repository.pdb
