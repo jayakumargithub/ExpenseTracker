@@ -7,6 +7,7 @@ using System.Web.Http;
 using AutoMapper;
 using ExpenseTracker.Api.AutoMapper;
 using ExpenseTracker.Repository;
+using ExpenseTracker.Repository.Entities;
 
 namespace ExpenseTracker.Api.Controllers
 {
@@ -24,7 +25,7 @@ namespace ExpenseTracker.Api.Controllers
         }
 
         //http://localhost:51825/api/expensegroup/1/expense
-        [Route("expenseforgroup/{expenseGroupId}/expense", Name ="ExpenseForGroup")]
+        [Route("expenseforgroup/{expenseGroupId}/expense", Name = "ExpenseForGroup")]
         public IHttpActionResult Get(int expenseGroupId)
         {
             try
@@ -35,7 +36,7 @@ namespace ExpenseTracker.Api.Controllers
                     return NotFound();
                 }
 
-                
+
                 var expenseResult = expenses.ToList().Select((exp => mapper.Map<Dto.Expense>(exp)));
                 return Ok(expenseResult);
             }
@@ -45,9 +46,26 @@ namespace ExpenseTracker.Api.Controllers
             }
         }
 
+        [Route("expenses/{expenseGroupId}")] 
+        public IHttpActionResult GetByGroupId(int expenseGroupId)
+        {
+            IQueryable<Expense> expenseQuery = null;
+            try
+            {
+                Repository.Entities.Expense expense = null;
+                expenseQuery = _repository.GetExpenses(expenseGroupId);
+                var output = expenseQuery.ToList().Select((exp => mapper.Map<Dto.Expense>(exp)));
+                return Ok(output);
+
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError();
+            }
 
 
-
+            return null;
+        }
 
         //http://localhost:51825/api/expensegroup/1/expense/1
         [Route("expensegroup/{expenseGroupId}/expense/{id}")]
@@ -88,14 +106,14 @@ namespace ExpenseTracker.Api.Controllers
         }
 
         [HttpGet]
-        [Route("expensewithfields/{expenseGroupId}/expense", Name = "ExpenseWithFields")] 
+        [Route("expensewithfields/{expenseGroupId}/expense", Name = "ExpenseWithFields")]
         public IHttpActionResult Get(int expenseGroupId, string fields = null)
         {
             try
             {
 
                 List<string> listOfFields = new List<string>();
-               
+
 
 
                 if (fields != null)
@@ -103,25 +121,25 @@ namespace ExpenseTracker.Api.Controllers
                     listOfFields = fields.ToLower().Split(',').ToList();
                 }
                 var expenses = _repository.GetExpenses(expenseGroupId);
-                if(expenses == null)
+                if (expenses == null)
                 {
                     return NotFound();
                 }
 
 
-               // var expenseResult = expenses.ToList().Select(exp => _exepenseGroupFactory.CreateDataShapedObject(exp,listOfFields));
-               //above code is not working hence did the easy to return requested fields in the result.
+                // var expenseResult = expenses.ToList().Select(exp => _exepenseGroupFactory.CreateDataShapedObject(exp,listOfFields));
+                //above code is not working hence did the easy to return requested fields in the result.
                 var expenseResult = expenses.ToList();
 
                 List<object> dynamic = new List<object>();
                 foreach (var e in expenseResult)
-                { 
+                {
                     dynamic.Add(_exepenseGroupFactory.CreateDataShapedObject(e, listOfFields));
                 }
 
 
-              //  var output = mapper.Map<IEnumerable<Dto.Expense>>(dynamic as D);
-               return  Ok(dynamic);
+                //  var output = mapper.Map<IEnumerable<Dto.Expense>>(dynamic as D);
+                return Ok(dynamic);
                 //else
                 //{
                 //    var expensesForGroup = _repository.GetExpenses((int)expenseGroupId);
